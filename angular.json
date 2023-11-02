@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "proyecto-angular-Gavilanes-Aroca": {
+    "proyecto-angular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/proyecto-angular-gavilanes-aroca",
+            "outputPath": "dist/proyecto-angular",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "proyecto-angular-Gavilanes-Aroca:build:production"
+              "browserTarget": "proyecto-angular:build:production"
             },
             "development": {
-              "browserTarget": "proyecto-angular-Gavilanes-Aroca:build:development"
+              "browserTarget": "proyecto-angular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "proyecto-angular-Gavilanes-Aroca:build"
+            "browserTarget": "proyecto-angular:build"
           }
         },
         "test": {
@@ -94,5 +94,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "3ea8b0fb-3ce4-4884-8b9b-b45ac4b2d266"
   }
 }

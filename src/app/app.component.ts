@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'proyecto-angular-Gavilanes-Aroca';
+  title = 'Ariel Omar Gavilanes Ortiz - Dilan Joel Aroca Guanotasig';
 }
